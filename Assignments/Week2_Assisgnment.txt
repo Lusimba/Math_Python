@@ -1,0 +1,25 @@
+Instructions: Take screenshots of your work and upload them along with your solutions on your github account. 
+
+1. Write a program to list all files in the given directory.
+2. 1. The output of the snippet of code shown below is:
+
+	import datetime
+	d=datetime.date(2016,7,24)
+	print(d)
+
+3. What is the output of the code shown below if the system date is 18th August, 2016?
+
+	tday=datetime.date.today()
+	print(tday.month())
+
+4. Which of the following will throw an error if used after the code shown below? (show screenshsot)
+
+	tday=datetime.date.today()
+	bday=datetime.date(2017,9,18)
+	t_day=bday-tday
+5. Which of the following will throw an error if used after the code shown below?
+
+	tday=datetime.date.today()
+	bday=datetime.date(2017,9,18)
+	t_day=bday-tday
+6. Calculate how many years, months, and dates have passed since the 2014 world cup. 
