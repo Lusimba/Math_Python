@@ -1,0 +1,9 @@
+A2)for the second one 
+   it would print this
+   2016-07-24
+
+A4)the tday in the last line should come before the bday
+
+A5)if you put print(t_day) it would throw an error
+
+A6)this is the code:-
