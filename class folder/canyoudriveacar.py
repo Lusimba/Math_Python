@@ -4,5 +4,5 @@ def canyoudrive():
     if y >= 18:
         return "you can drive a car"
     else:
-        return "you cannot drive a car"    
+        return "you cannot drive a car"   
 print(canyoudrive())        
