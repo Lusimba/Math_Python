@@ -50,6 +50,7 @@ def factorial():
     factorial = 1
     for counter in range(1,g+1):
         factorial = factorial * counter
-
+    return "the factorial is ",factorial    
+print(factorial())
 print("                        -                           ")   
-   
+
