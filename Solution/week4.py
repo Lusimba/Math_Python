@@ -36,7 +36,7 @@ def multiply():
     for counter in blist:
         mul = mul * counter
     return "the product of the numbers that you entered is ",mul
-print(sum1())
+print(multiply())
 print("                        -                           ")   
 
 #4.4
@@ -47,6 +47,9 @@ print("                        -                           ")
 #4.5
 def factorial():
     g = int(input("Please enter a number: "))
-    factorial
+    factorial = 1
+    for counter in range(1,g+1):
+        factorial = factorial * counter
+
 print("                        -                           ")   
    
