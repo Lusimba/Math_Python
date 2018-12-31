@@ -81,7 +81,7 @@ def upperlower():
                 upper = upper + 1
     for count in lowerlist:
         for count2 in lowerlist:
-            if count = count2:
+            if count == count2:
                 lower = lower + 1 
     return "the lower letters are ",lower," and upper ",upper
 print(upperlower())
