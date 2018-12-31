@@ -66,4 +66,23 @@ def findrange():
 print(findrange())
 print("                        -                           ")   
 
-#
+#4.7
+upperlist = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W"\
+,"X","Y","Z"]
+lowerlist = ["a","b","c","d","e","g","h","i","j","f","k","l","m","n","o","p","q","r","s","t","u","v","w"\
+,"x","y","z"]
+def upperlower():
+    k = input("please enter a word: ")
+    upper = 0
+    lower = 0
+    for counter in upperlist:
+        for counter2 in k:
+            if counter == counter2:
+                upper = upper + 1
+    for count in lowerlist:
+        for count2 in lowerlist:
+            if count = count2:
+                lower = lower + 1 
+    return "the lower letters are ",lower," and upper ",upper
+print(upperlower())
+print("                        -                           ")                         
