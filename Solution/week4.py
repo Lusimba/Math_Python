@@ -54,3 +54,16 @@ def factorial():
 print(factorial())
 print("                        -                           ")   
 
+#4.6
+def findrange():
+    h = int(input("please enter the first number: "))
+    i = int(input("please enter the second number: "))
+    j = int(input("enter a number to find if it is in the range of the first and second number: "))
+    if h <= j <= i:
+        return "the number is in given range"
+    else:
+        return "the number is not in the given range"
+print(findrange())
+print("                        -                           ")   
+
+#
