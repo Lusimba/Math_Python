@@ -85,6 +85,35 @@ def upperlower():
                 lower = lower + 1 
     return "the lower letters are ",lower," and upper ",upper
 print(upperlower())
-print("                        -                           ")        
+print("                        -                           ")       
 
+#4.8
+nlist = []
+ulist = []
+def change():
+    l = int(input("Please enter a number : "))
+    m = int(input("Please enter another number(you can repeat your numbers): "))
+    n = int(input("Please enter another number(you can repeat your numbers): "))
+    o = int(input("Please enter another number(you can repeat your numbers): "))
+    p = int(input("Please enter another number(you can repeat your numbers): "))
+    q = int(input("Please enter another number(you can repeat your numbers): "))
+    r = int(input("Please enter another number(you can repeat your numbers): "))
+    s = int(input("Please enter another number(you can repeat your numbers): "))
+    nlist.append(l)
+    nlist.append(m)
+    nlist.append(n)
+    nlist.append(o)
+    nlist.append(p)
+    nlist.append(q)
+    nlist.append(r)
+    nlist.append(s)
+    for counter in nlist:
+        for counter2 in ulist:
+            if counter != counter2:
+                ulist.append(counter)
+    return "the unique list is ",ulist
+print(change())   
 
+#4.9
+def primecomposit():
+    
