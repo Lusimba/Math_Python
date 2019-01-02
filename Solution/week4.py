@@ -116,4 +116,15 @@ print(change())
 
 #4.9
 def primecomposit():
-    
+    t = int(input("please neter a number: "))   
+    for counter in range(1,t+1):
+        cs = 0 
+        if counter % t == 0:
+            return "the number that you entered is a composite number"
+            cs = 1
+            break
+    if cs != 1:
+        return "the number that you entered is a prime number"        
+print(primecomposit())   
+
+#4.11
