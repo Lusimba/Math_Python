@@ -113,6 +113,7 @@ def change():
                 ulist.append(counter)
     return "the unique list is ",ulist
 print(change())   
+print("                        -                           ")       
 
 #4.9
 def primecomposit():
@@ -126,5 +127,22 @@ def primecomposit():
     if cs != 1:
         return "the number that you entered is a prime number"        
 print(primecomposit())   
+print("                        -                           ")       
 
 #4.11
+factorlist = []
+def perfect ():
+    u = int(input("please enter a number to find if it is perfect or not: "))
+    for counter in range(1,u+1):
+        if counter%u==0:
+            factorlist.append(counter)
+    add = 0        
+    for counter2 in factorlist:
+        add = add + counter2
+    if add == u:
+        return "the number is a perfect number"
+    else:
+        return "the number is not a perfect number"
+print(perfect())
+print("                        -                           ")       
+
