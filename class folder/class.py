@@ -4,19 +4,13 @@ class Employee():
         self.lastName = lastName
         self.email = firstName + "." + lastName + "@" + "gmail.com"
         self.pay = pay
+    def fullName(self):
+        return "{} {}".format(self.firstName,self.lastName)
+
 emp_1 = Employee("vidit","gupta",9999999999999999999999999999)
 print(emp_1)
 print(emp_1.email)
-emp_1 = Employee("tanishq","kaushik",9999999999999999999999999999)
-print(emp_1)
-print(emp_1.email)
-emp_1 = Employee("Jainam","hemani",9999999999999999999999999999)
-print(emp_1)
-print(emp_1.email)
-emp_1 = Employee("daiwik","charabudlas",9999999999999999999999999999)
-print(emp_1)
-print(emp_1.email)
-
+print(emp_1.fullName())
 # emp_1 = (Employee)
 # emp_1.firstName = "VIDIT"
 # emp_1.lastName = "GUPTA"
