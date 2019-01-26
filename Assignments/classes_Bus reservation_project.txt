@@ -8,3 +8,5 @@ Project Work.
             ii. Deduct the fare charges and show new balance. 
             iii. receive money in cash
         All payment modes should print a ticket with buyer's name, destination, and times of departure and arrival.
+        d. Children below 5 years are allowed to travel free of charge. Children below 15 years get 50% off the ticket price.
+        e. If a person purchases 5 tickets at one time, he should get one free ticket. Print a message to congratulate them on accessing the family pack bonus. 
