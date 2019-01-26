@@ -1,0 +1,10 @@
+Project Work. 
+1. create a bus reservation system with five routes to Delhi, Mumbai, Chennai, Pune, and Bangalore.
+    The system should :
+        a. Have 5 departure and arrival times between 8am and 10pm
+        b. Allow a person to book only one ticket per person per day. 
+        c. Accept 3 payment modes:
+            i. Add money to a smartcard and show new balance.
+            ii. Deduct the fare charges and show new balance. 
+            iii. receive money in cash
+        All payment modes should print a ticket with buyer's name, destination, and times of departure and arrival.
