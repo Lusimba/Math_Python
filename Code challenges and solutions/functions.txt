@@ -1,0 +1,179 @@
+Question:
+
+
+The Fibonacci Sequence is computed based on the following formula:
+
+
+f(n)=0 if n=0
+f(n)=1 if n=1
+f(n)=f(n-1)+f(n-2) if n>1
+
+Please write a program to compute the value of f(n) with a given n input by console.
+
+Example:
+If the following n is given as input to the program:
+
+7
+
+Then, the output of the program should be:
+
+13
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints:
+We can define recursive function in Python.
+
+
+Solution:
+
+def f(n):
+    if n == 0: return 0
+    elif n == 1: return 1
+    else: return f(n-1)+f(n-2)
+
+n=int(raw_input())
+print f(n)
+
+
+
+-------------------------------------------------
+Question:
+
+The Fibonacci Sequence is computed based on the following formula:
+
+
+f(n)=0 if n=0
+f(n)=1 if n=1
+f(n)=f(n-1)+f(n-2) if n>1
+
+Please write a program using list comprehension to print the Fibonacci Sequence in comma separated form with a given n input by console.
+
+Example:
+If the following n is given as input to the program:
+
+7
+
+Then, the output of the program should be:
+
+0,1,1,2,3,5,8,13
+
+
+Hints:
+We can define recursive function in Python.
+Use list comprehension to generate a list from an existing list.
+Use string.join() to join a list of strings.
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Solution:
+
+def f(n):
+    if n == 0: return 0
+    elif n == 1: return 1
+    else: return f(n-1)+f(n-2)
+
+n=int(raw_input())
+values = [str(f(x)) for x in range(0, n+1)]
+print ",".join(values)
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question:
+Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
+
+Hints:
+
+Use filter() to filter some elements in a list.
+Use lambda to define anonymous functions.
+
+Solution
+li = [1,2,3,4,5,6,7,8,9,10]
+evenNumbers = filter(lambda x: x%2==0, li)
+print evenNumbers
+
+
+#----------------------------------------#
+3.4
+
+Question:
+Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
+
+Hints:
+
+Use map() to generate a list.
+Use lambda to define anonymous functions.
+
+Solution
+li = [1,2,3,4,5,6,7,8,9,10]
+squaredNumbers = map(lambda x: x**2, li)
+print squaredNumbers
+
+#----------------------------------------#
+3.5
+
+Question:
+Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
+
+Hints:
+
+Use map() to generate a list.
+Use filter() to filter elements of a list.
+Use lambda to define anonymous functions.
+
+Solution
+li = [1,2,3,4,5,6,7,8,9,10]
+evenNumbers = map(lambda x: x**2, filter(lambda x: x%2==0, li))
+print evenNumbers
+
+
+
+
+#----------------------------------------#
+3.5
+
+
+
+Question:
+Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
+
+Hints:
+
+Use map() to generate a list.
+Use lambda to define anonymous functions.
+
+Solution
+squaredNumbers = map(lambda x: x**2, range(1,21))
+print squaredNumbers
+
+
+
+
+#----------------------------------------#
+
+
+
+Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
+
+Hints:
+
+Use unicode() function to convert.
+
+Solution:
+
+s = raw_input()
+u = unicode( s ,"utf-8")
+print u
