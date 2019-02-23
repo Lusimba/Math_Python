@@ -8,7 +8,7 @@ class Ding:
          self.amount=amount
          self.receiver=receiver
     def transfer(self):
-        if amount < balance:
+        if amount < balance and amount > 0:
             if(self.receiver in list1):
                 accPosition = list1.index(self.receiver)
                 accName = list2[accPosition]
