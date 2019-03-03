@@ -1,0 +1,7 @@
+Write a program for a company that sells four different types of vehicles: Trucks, sedan, SUV,
+and convertible.  Each salesman gets 7% commission from every sale while the manager receives 5%. 
+The salary of the salesman is 35000 INR, while that of the manager is 90, 000. In January, thesales of 
+trucks totalled 40, 000 at 1 lakh. Sedans sold 40% more than trucks at 60, 000. SUVs sold 40% less than trucks at 2 lakhs. Convertibles
+sold 3 times more than the sedans at 3 lakhs. 
+a. Display the total amount of money made from SUV and the convertible. 
+b. Find the salaries of the manager and salesman in the month of January. 

@@ -1,0 +1,14 @@
+Use static, class, and instance methods in this exercise
+
+Write python code to transfer money between two bank accounts belonging to the same bank 
+(hint: you must use lists to store account numbers and account names).
+a. Ask the user for his/her bank account and check if the bank account exists (check for 
+availability on the list). If the account number provided is absent from the list,
+return an error message. 
+b. If the account number exists, print the account number and name as
+"Hello XYZ, your account number is ###" (hint: use list.index and other list access methods) 
+c. Ask the user for the recipient account and confirm that the account exists. 
+d. transfer funds from sender's account (initial balance = 10, 000 INR) and show a success message. 
+
+Note:   The account numbers must exist in the bank. If the accounts do not exist, exit the execution sequence. 
+        Ask for the valid bank account for a maximum of three times, after which you exit the execution sequence. 

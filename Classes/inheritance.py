@@ -25,8 +25,20 @@ class Manager(Employee):
             self.employees=[]
         else:
             self.employees=employees
+    def add_emp(self, emp):
+        if emp not in self.employees:
+            self.employees.append(emp)
+    def remove_emp(self, emp):
+        if emp in self.employees:
+            self.employees.remove(emp)
+    def print_emps(self):
+        for emp in self.employees:
+            print('-->', emp.fullName())
 
-emp=Employee('Neville', 'Lusimba', 50000)
+emp=Employee('Mariah', 'Carey', 0000)
 #We can raise the salary of an individual by applying a percentage increment
-emp1 = Developer('Brian', 'Sim', 90000, 'Python')
-print (emp1.currentSalary())
+emp1 = Developer('Brian', 'Sim', 60000, 'Python')
+mgr_1 = Manager('Sue', 'Smith', 60000, [emp1])
+print (emp1.currentSalary()) # Developer subclass
+print (emp.currentSalary()) #employee superclass
+print (mgr_1.currentSalary()) #manager subclass
