@@ -1,5 +1,5 @@
 import time
-print("Welcome to my amazing game (Not like Advaith.Basireddy's)")
+print("Welcome to my amazing game ")
 print("This game is about story telling")
 d = input("What's your name  ")
 j = input("What do you want to name your charecter   ")
