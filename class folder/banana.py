@@ -11,3 +11,14 @@ else:
     print("what the heck")   
 bankAc["age"] = 28
 print(bankAc["age"])
+blah = [
+    "blah",
+    "blah",
+    "is",
+    "chicken",
+]
+print(blah)
+blah.insert(2,"the")
+print(blah)
+
+
