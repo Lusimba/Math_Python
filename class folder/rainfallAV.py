@@ -1,10 +1,10 @@
 def Convert(tup, di): 
     for a, b in tup: 
         di.setdefault(a, []).append(b) 
-    return di 
-      
+    return di       
 # Driver Code     
-citav = [('Bombay', 848), ('Madras', 103),('Bombay', 923),('Bangalore', 201), ('Madras', 128), ('Bangalore', 201.0),('Bombay', 885.5), ('Madras', 115.5)] 
+citav = [('Bombay', 848), ('Madras', 103),('Bombay', 923),('Bangalore', 201), ('Madras', 128), ('Bangalore', 201.0)\
+    ,('Bombay', 885.5), ('Madras', 115.5)] 
 dictionary = {} 
 x = Convert(citav, dictionary)
 B = x['Bombay']
@@ -16,7 +16,8 @@ def rainaverage(B):
         sum +=B[x]
     return sum
 Bombay = rainaverage(B)
-Madras = rainaverage(M)
-Bangalore = rainaverage(Ba)
-Avlist = [ ('Bangalore', Bangalore), ('Bombay', Bombay), ('Madras', Madras)]
-print(Avlist)
+print(Bombay)
+# Madras = rainaverage(M)
+# Bangalore = rainaverage(Ba)n    
+# Avlist = [ ('Bangalore', Bangalore), ('Bombay', Bombay), ('Madras', Madras)]
+# print(Avlist)
