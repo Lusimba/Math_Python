@@ -10,7 +10,7 @@ def average(arr):
     else:
         return sum(arr)/len(arr)
 
-tup = [('Bombay', 848), ('Madras', 103),('Bombay', 923),('Bangalore', 201), ('Madras', 128), ('Bangalore', 201.0),('Bombay', 885.5), ('Madras', 115.5)] 
+tup = [('Bombay', 848), ('Madras', 103),('Bombay', 923),('Bangalore', 201), ('Madras', 128), ('Bangalore', 202.0),('Bombay', 885.5), ('Madras', 115.5)] 
 dictionary = convertToDict(tup)
 for k, v in dictionary.items():
     print("The average rainfall in {} was {}".format(k, average(v)))
