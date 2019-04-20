@@ -285,13 +285,7 @@ if l == 1:
     n = '____________'
     print("Ok training")
     print("He'll train in 12 days(in our world 12 seconds)")
-    time.sleep(1)
-    for m in range(0, 12):
-        n = list(n)
-        time.sleep(1)
-        n[m] = '-'
-        n = str(n)
-        print(n, end="\r")
+    time.sleep(12)
     print("Done training")
     print("You know-;")
     print("sword shield, sword block, sword clash, cut arrow, sword throw, sword jump and sword slash")
