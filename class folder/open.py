@@ -1,0 +1,5 @@
+f = open("testing.txt", 'r')
+print("start")
+print(f.read())
+f.close()
+print("done")
