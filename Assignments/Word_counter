@@ -1,0 +1,6 @@
+Write a program that allows you to copy and paste a block of text into a text box. After a button press, calculate the frequency of all the unique words in the text, and post the number of occurrences for each word (and the word respectively) in another text box. Handle all possible errors you can think of. Omit numbers, or "words" that contain numbers or other non-alphabet characters. At the bottom list the total number of words in the text block.
+
+In order to do this you will have to first parse the text and break it into individual words ( possibly in an array), removing non-words. After that you will need to loop through the array and identify unique words. At that point you can count the repetitions for each word, and post your output to the second text box.
+\
+
+Optional: include a table that lists the time required to identify unique words based on the text block size. For example, how many milliseconds does it take to calculate 100, 1000, 10000, 100000, and 1000000 words respectively.
