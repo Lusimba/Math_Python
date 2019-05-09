@@ -1,8 +1,3 @@
-print("""hi im amogh
-my BMI is 999999999999999
-this is also my credit card number
-here is the password 9999
-this is my sons credit card number""")
 import math
 r = 21
 peripheri = 2*math.pi*r
